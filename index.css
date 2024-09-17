@@ -1,0 +1,132 @@
+body{
+    color: rgb(255, 255, 255);
+    width: 900px;
+    background-color: #0a0808;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,.5);
+    padding: 10px;
+    text-align: center;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    color: rgb(139, 0, 0);
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav a:hover {
+    color:rgba(71, 81, 167, 0.986);
+    text-align: center;
+    text-decoration: underline;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+}
+.center {
+    text-align: center;
+    font-size: smaller;
+}   
+h2 {
+    font-size: large;
+    color: rgb(27, 129, 129);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer img{
+    width: 30px;
+    height: 30px;  
+}
+footer {
+    color: rgb(146, 139, 129);
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+footer a {
+    color: blueviolet;
+    margin: 15px;
+    text-align: center;
+    padding-left: 60px;
+    font-family: monospace;
+}
+footer p {
+    margin-top: 50px;
+    margin-left: -130px;
+}
+.container {
+    padding: 0px 50px;
+    font-size: large;
+}
+section#img{
+    margin: 300px;
+}
+section#facu strong{
+    color: aqua;
+}
+section#facu {
+    color: white;
+    margin-bottom: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+section#facu h3:hover{
+    color: rgb(32, 17, 238); 
+    text-decoration: underline;
+}
+section#sobm h3{
+    color: green;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+section#sobm P {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: pt;  
+}
+section#curs {
+    margin-top: -25px;
+}
+section#curs h1{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    border-radius: 20px;
+    text-align: center;
+}
+section#curs h2{
+    color: rgb(172, 115, 17);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(7, 170, 175);
+    border-radius: 20px;
+}
+section#curs h3{
+    color: rgb(251, 255, 33);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(7, 170, 175);
+    border-radius: 20px;   
+}
+section#curs h4 {
+    color: rgba(18, 66, 199, 0.808);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(7, 170, 175);
+    border-radius: 20px;
+}
+section#curs a:hover{
+    color: greenyellow;
+    font-size: large;
+    padding: -10px;
+    margin-top: 50px;
+}
+section#curs a{
+   text-decoration: underline; 
+   color: red;
+}
